@@ -6,7 +6,7 @@ public class TestClass {
 
     public static void main(String[] args) {
 
-                      //HW Week 1: Логические и условные операторы (if, if-else, switch )
+                      //HW Week 1 п.1 : Логические и условные операторы (if, if-else, switch )
         int a = 10;
         int b = 15;
         int c = 20;
