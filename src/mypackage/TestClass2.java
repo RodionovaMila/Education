@@ -14,7 +14,7 @@ public class TestClass2 {
         int r4 = 9;
 
         System.out.println();
-        System.out.println("Вывести на консоль количество максимальных чисел среди этих четырех");
+        System.out.println("вывести на консоль количество максимальных чисел среди этих четырех");
 
         int maxvalue = Math.max(Math.max(q1, w2), Math.max(e3, r4));
         int i;
