@@ -19,7 +19,7 @@ public class TestClass4 {
         if (name1.equalsIgnoreCase(name2)) {
             System.out.println("Люди являются тезками: " + name1.toUpperCase());
         } else {
-            System.out.println("Имя первого : " + name1 + "\nameИмя второго : " + name2);
+            System.out.println("Имя первого : " + name1 + "\nИмя второго : " + name2);
         }
 
     }
