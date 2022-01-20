@@ -11,14 +11,14 @@ public class TestClass7 {
         int x = 5;
 
         System.out.println();
-        System.out.println("Вывести 10 первых чисел последовательности 0, -5,-10,-15");
+        System.out.println("Вывести 10 первых чисел последовательности 0,-5,-10,-15");
 
         for (int i = 0; i < 10; i++) {
             if (i < 9) {
-                x -= 5;
+                x -= 5; // x = x - 5
                 System.out.print(x + "\n ");
             } else {
-                x -= 5;
+                x -= 5; // x = x - 5
                 System.out.print(x);
 
             }
