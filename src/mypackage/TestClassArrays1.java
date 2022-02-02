@@ -3,24 +3,22 @@
 
 import java.util.Arrays;
 
-public class TestClassArrays1 {
+public class TestClassArrays2 {
 
 
 
-        public static void main(String[] args) {
-            printMinElementsArray(new int[]{20,2,1,15,1,9,1});
-           }
-
-        private static void printMinElementsArray(int[] array) {
-            Arrays.sort(array);
-            if (array[0] == array[array.length - 1])
-                System.out.print(Arrays.toString(array));
-            else {
-                for (int value : array) {
-                    if (value == array[0])
-                        System.out.print(value + ",");
-                }
+    public static void main(String[] args) {
+        int[] arr = {20, 2, 1, 15, 1, 9, 1};
+        int min = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (min > arr[i]) {
+                min = arr[i];
             }
-            System.out.println();
+        }
+        for (int var : arr) {
+            if (var == min) {
+                System.out.println(min);
+            }
         }
     }
+}
