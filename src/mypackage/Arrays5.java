@@ -1,19 +1,20 @@
 package mypackage;
 import java.util.Arrays;
 
-public class Arrays5 {
-    public static void main(String[] args) {
-        int [] arr = new int[10];
-
-
-        boolean isSorted = false;
-        int buf;
-        while(!isSorted) {
-            isSorted = true;
-            for (int i = 0; i < arr.length-1; i++) {
-                arr[i] =  (int)(Math.random() * 100);
-                if(arr[i] < arr[i+1]){
-                    isSorted = false;
+        public class Arrays5 {
+        public static void main(String[] args) {
+            int [] arr = new int[20];
+            for (int i = 0; i < 20; i++) {
+                int a = (int) (Math.random() * (1001));
+                arr[i] = a;
+           }
+            boolean isSorted = false;
+            int buf;
+            while(!isSorted) {
+                isSorted = true;
+                    for (int i = 0; i < arr.length - 1; i++) {
+                     if(arr[i] < arr[i+1]){
+                         isSorted = false;
 
                     buf = arr[i];
                     arr[i] = arr[i+1];
@@ -24,3 +25,7 @@ public class Arrays5 {
         System.out.println(Arrays.toString(arr));
     }
 }
+
+
+
+   
