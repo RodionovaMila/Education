@@ -1,3 +1,4 @@
+
 package mypackage;
 
 public class TestClassFactorial {
@@ -10,7 +11,7 @@ public class TestClassFactorial {
         return result;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println(calculateFactorial(13));
     }
 }

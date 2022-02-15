@@ -1,3 +1,4 @@
+
 package mypackage;
 
 public class TestClassOperatorWhile {
@@ -18,3 +19,4 @@ public class TestClassOperatorWhile {
         }
     }
 }
+
